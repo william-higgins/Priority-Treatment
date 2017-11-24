@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoctorTendToHumanlikes</defName>
+    <label>tend to patients</label>
+    <giverClass>WorkGiver_TendOther</giverClass>
+    <workType>Doctor</workType>
+    <verb>tend to</verb>
+    <gerund>tending to</gerund>
+    <emergency>true</emergency>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <priorityInType>70</priorityInType>
+    <prioritizeSustains>true</prioritizeSustains>
+    <tendToHumanlikesOnly>true</tendToHumanlikesOnly>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoctorTendToSelf</defName>
+    <label>tend to self</label>
+    <giverClass>WorkGiver_TendSelf</giverClass>
+    <workType>Doctor</workType>
+    <verb>tend to</verb>
+    <gerund>tending to</gerund>
+    <emergency>true</emergency>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <priorityInType>65</priorityInType>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoctorTendToAnimals</defName>
+    <label>tend to animals</label>
+    <giverClass>WorkGiver_TendOther</giverClass>
+    <workType>Doctor</workType>
+    <verb>tend to</verb>
+    <gerund>tending to</gerund>
+    <emergency>true</emergency>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <priorityInType>40</priorityInType>
+    <prioritizeSustains>true</prioritizeSustains>
+    <tendToAnimalsOnly>true</tendToAnimalsOnly>
+  </WorkGiverDef>
+
+    <WorkGiverDef>
+    <defName>DoctorRescue</defName>
+    <label>rescue downed allies to bed</label>
+    <giverClass>WorkGiver_RescueDowned</giverClass>
+    <workType>Doctor</workType>
+    <verb>rescue</verb>
+    <gerund>rescuing</gerund>
+    <priorityInType>90</priorityInType>
+    <directOrderable>false</directOrderable>
+    <emergency>true</emergency>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>

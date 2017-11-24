@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Priority Treatment</name>
+  <author>Will Higgins</author>
+    <url>https://github.com/william-higgins/Priority-Treatment</url>
+        <targetVersion>0.18.1722</targetVersion>
+<description>
+
+Colonists priority rescuing and treating wounds over sleeping, eating and joy.
+
+This mod set doctoring as same priority as firefighting, as in emergency. Recommended to set doctoring as priority 1. Your doctors will collapse or starve themselves trying to treat pawns.
+
+</description>
+</ModMetaData>
